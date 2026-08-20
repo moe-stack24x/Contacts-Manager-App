@@ -60,7 +60,7 @@ Responsible for database operations using ADO.NET:
 
 ![Contacts Manager Main Screen](ScreenShots/Screenshot%202026-08-20%20122438.png)
 
-### Contact Management
+### Add/Edit Screen
 
 ![Contacts Manager Contact Screen](ScreenShots/Screenshot%202026-08-20%20122448.png)
 
