@@ -1,40 +1,88 @@
-# Contacts Manager App 📇
+# 📇 Contacts Manager App
 
-A robust C# Windows Forms Contact Management Application built following the **3-Tier Architecture** pattern and utilizing **ADO.NET** for SQL Server database operations.
+A robust **C# Windows Forms Contact Management Application** built following the **3-Tier Architecture** pattern and utilizing **ADO.NET** for SQL Server database operations.
 
 ---
 
 ## 🏗️ Architecture Overview
 
-This project strictly adheres to the 3-Tier Software Architecture to ensure separation of concerns, maintainability, and scalability:
+This project follows the **3-Tier Software Architecture** to ensure separation of concerns, maintainability, and scalability.
 
-* **Presentation Layer (`Contacts`)**: Windows Forms UI for handling user interactions, form validation, and data visualization.
-* **Business Logic Layer (`ContactsBusinessLayer`)**: Handles core business rules, entity validations, and acts as the bridge between UI and Data Access.
-* **Data Access Layer (`ContactsDataAccessLayer`)**: Manages direct database interactions using standard ADO.NET (`SqlConnection`, `SqlCommand`, `SqlDataReader`).
+### 🖥️ Presentation Layer
+**`Contacts`**
+
+Windows Forms UI responsible for:
+
+- User interactions
+- Form validation
+- Data visualization
+- Managing application forms
+
+### 🧠 Business Logic Layer
+**`ContactsBusinessLayer`**
+
+Responsible for:
+
+- Business rules
+- Entity validation
+- Processing application logic
+- Connecting the Presentation Layer with the Data Access Layer
+
+### 🗄️ Data Access Layer
+**`ContactsDataAccessLayer`**
+
+Responsible for database operations using ADO.NET:
+
+- `SqlConnection`
+- `SqlCommand`
+- `SqlDataReader`
 
 ---
 
 ## ✨ Features
 
-* **Contact Operations**: Add, Edit, Delete, and Search contacts seamlessly.
-* **Country Data Integration**: Dynamically link contacts to their respective countries.
-* **Clean UI**: User-friendly forms built with custom controls and resource icons.
-* **Decoupled Architecture**: Fully isolated database logic for easy testing and updates.
+- ➕ Add contacts
+- ✏️ Edit contacts
+- 🗑️ Delete contacts
+- 🔍 Search contacts
+- 🌍 Link contacts with country data
+- 🖥️ User-friendly Windows Forms interface
+- 🧩 Custom controls and resource icons
+- 🏗️ Clean 3-Tier Architecture
+- 🗄️ SQL Server database integration
+- 🔌 ADO.NET data access
 
 ---
 
-## 🛠️ Tech Stack & Prerequisites
+## 📸 Screenshots
 
-* **Language**: C# (.NET Framework)
-* **UI**: Windows Forms (WinForms)
-* **Database**: Microsoft SQL Server
-* **Data Access**: ADO.NET
-* **IDE**: Visual Studio 2022
+### Main Screen
+
+![Contacts Manager Main Screen](ScreenShots/Screenshot%202026-08-20%20122438.png)
+
+### Contact Management
+
+![Contacts Manager Contact Screen](ScreenShots/Screenshot%202026-08-20%20122448.png)
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| **C#** | Application development |
+| **.NET Framework** | Application framework |
+| **Windows Forms** | Graphical User Interface |
+| **ADO.NET** | Database access |
+| **Microsoft SQL Server** | Database |
+| **Visual Studio 2022** | Development Environment |
+| **3-Tier Architecture** | Application architecture |
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the Repository**:
-   ```bash
-   git clone [https://github.com/moe-stack24x/Contacts-Manager-App.git](https://github.com/moe-stack24x/Contacts-Manager-App.git)
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/moe-stack24x/Contacts-Manager-App.git
