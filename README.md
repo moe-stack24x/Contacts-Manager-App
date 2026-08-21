@@ -1,6 +1,6 @@
 # 📇 Contacts Manager App
 
-A robust **C# Windows Forms Contact Management Application** built following the **3-Tier Architecture** pattern and utilizing **ADO.NET** for SQL Server database operations.
+A  **C# Windows Forms Contact Management Application** built following the **3-Tier Architecture** pattern and utilizing **ADO.NET** for SQL Server database operations.
 
 ---
 
